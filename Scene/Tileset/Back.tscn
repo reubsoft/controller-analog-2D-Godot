@@ -1,0 +1,59 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Sprites/Object/14-TileSets/Terrain (32x32).png" type="Texture" id=1]
+
+
+[node name="Back" type="Node2D"]
+
+[node name="0" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 32, 224, 32, 32 )
+
+[node name="1" type="Sprite" parent="."]
+position = Vector2( 36, 0 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 96, 224, 32, 32 )
+
+[node name="2" type="Sprite" parent="."]
+position = Vector2( 0, 36 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 32, 288, 32, 32 )
+
+[node name="3" type="Sprite" parent="."]
+position = Vector2( 36, 36 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 96, 288, 32, 32 )
+
+[node name="4" type="Sprite" parent="."]
+position = Vector2( 80, 0 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 64, 224, 32, 32 )
+
+[node name="5" type="Sprite" parent="."]
+position = Vector2( 80, 36 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 64, 288, 32, 32 )
+
+[node name="6" type="Sprite" parent="."]
+position = Vector2( 116, 0 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 32, 256, 32, 32 )
+
+[node name="7" type="Sprite" parent="."]
+position = Vector2( 116, 36 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 96, 256, 32, 32 )
+
+[node name="8" type="Sprite" parent="."]
+position = Vector2( 152, 0 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 64, 256, 32, 32 )
